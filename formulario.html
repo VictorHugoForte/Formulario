@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .BT
+        {
+            width: 100px;
+            height: 70px;
+            background-color: darkblue;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        .BT:hover
+        {
+            background-color: chartreuse;
+
+        }
+        .comentario
+        {
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend> Dados do Picole</legend>
+        Selecione um Sabor:
+        <select>
+            <option>Pimenta</option>
+            <option>Pica</option>
+            <option>Mel</option>
+            <option>Uva</option>
+            <option>Abacaxi</option>
+        </select>
+        <br>   <br>
+        Escolha um cobertura:
+        <input type="radio" name="cobertura">chocolate
+        <input type="radio" name="cobertura">leite condeçado
+        <br>   <br>
+        Escolha sua embalagem:
+        <input type="checkbox">Rosa 
+        <input type="checkbox">Roxo
+        <input type="checkbox">Preto
+        <input type="checkbox">Azul
+        <br>   <br>
+        Escolha a cor do Palito:
+        <input type="color">
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados de Entrega</legend>
+        Endereço: <input type="text">
+        <br>   <br>
+        Cidade: <input type="text">
+        <br>  <br>
+        Data da Entrega: <input type="date">
+        <br>  <br>
+        Comentarios: <br>
+        <textarea> </textarea>
+        
+    </fieldset>
+    <button class="BT"> ENVIAR</button>
+    <button class="BT"> CANCELAR </button>
+
+
+</body>
+</html>
